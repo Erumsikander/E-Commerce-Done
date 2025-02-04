@@ -8,13 +8,12 @@
     "start": "next start",
     "lint": "next lint",
     "import-data": "node scripts/importSanityData.mjs",
-     "clean": "rm -rf .next",  
+    "clean": "rm -rf .next",
     "analyze": "next build && next analyze"
-
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
-    "@sanity/client": "^6.27.1",
+    "@sanity/client": "^6.27.2",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.71.0",
     "autoprefixer": "^10.4.20",
