@@ -69,7 +69,7 @@ const LoginSignupSection = () => {
           {/* Sign Up Link */}
           <div className="text-center">
             <p className="text-white text-sm sm:text-base">
-              Don't have an account?{" "}
+              Dont have an account?
               <a
                 href="https://accounts.google.com/signup"
                 target="_blank"
