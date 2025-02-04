@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chrome  or Safari pr work krny k liye */
+
+.scrollbar-hide::-webkit-scrollbar {
+
+  display: none;
+
+}
+/* Internet Explorery phr Firebox pr work krny k liye */
+
+.scrollbar-hide {
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
