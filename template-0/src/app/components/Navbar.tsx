@@ -10,7 +10,7 @@ export default function Navbar() {
       
         <div>
           {/* Navbar Main Container */}
-          <div className=" p-4 flex items-center justify-between max-w-6xl mx-auto flex-nowrap">
+          <div className="p-4 flex items-center justify-between max-w-5xl mx-auto flex-nowrap">
             
             {/* Logo  */}
             <div className="flex items-center mx-auto">
