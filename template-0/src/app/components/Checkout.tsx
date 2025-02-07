@@ -18,7 +18,7 @@ const Checkout = ({ amount }: { amount: number }) => {
         if (myhost === 'localhost:3000') {
             setURL('http://localhost:3000');
         } else {
-            setURL('http://localhost:3000/checkout');
+            setURL('https://e-commerce-done.vercel.app/checkout');
         }
     }, []);
 
