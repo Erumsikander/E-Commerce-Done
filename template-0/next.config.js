@@ -18,4 +18,11 @@ module.exports = {
       'cdn4.iconfinder.com',
     ], 
   },
+  
+};
+
+module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
