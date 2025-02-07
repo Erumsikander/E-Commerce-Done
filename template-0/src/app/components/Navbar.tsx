@@ -29,7 +29,7 @@ export default function Navbar() {
 
         {/* Login Icon */}
         <div className="gap-2">
-          <Link href="/login">
+          <Link href="/login " target="_blank">
             <RiAccountCircleLine className="w-10 h-10 rounded-full hover:text-amber-400 text-lime-400 cursor-pointer" />
           </Link>
         </div>
