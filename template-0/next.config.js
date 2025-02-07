@@ -1,6 +1,3 @@
-// next.config.js
-
-
 module.exports = {
   reactStrictMode: true,
   images: {
@@ -18,10 +15,6 @@ module.exports = {
       'cdn4.iconfinder.com',
     ], 
   },
-  
-};
-
-module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
   },
