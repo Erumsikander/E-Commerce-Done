@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Productcard from "./Productcard";
 import { Product } from "../../types";
+import Link from "next/link";
 
 const Menu = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -105,7 +106,7 @@ const Menu = () => {
                         <Image src={product.image} alt={product.name} width={100} height={100} className="w-24 h-24 object-cover" />
                         <div className="text-white">
                           <span className="text-lg font-bold block">{product.name} - ${product.price * product.inventory}</span>
-                          <div className="flex items-center gap-2 mt-2">
+                          <div className="flex items-center gap-2 mt-2 justify-end">
                             <button className="bg-gray-600 text-white px-2 py-1 rounded" onClick={() => updateQuantity(index, product.inventory - 1)}>-</button>
                             <span>{product.inventory}</span>
                             <button className="bg-gray-600 text-white px-2 py-1 rounded" onClick={() => updateQuantity(index, product.inventory + 1)}>+</button>
@@ -136,7 +137,7 @@ const Menu = () => {
               <p className="text-xl text-red-500 mb-4">Please Confirm Your Order Before Proceeding</p>
               <ul>
                 {cart.map((product, index) => (
-                  <li key={index} className="flex justify-between mb-2 text-xl font-semibold text-black">
+                  <li key={index} className="flex justify-between mb-2 text-lg font-semibold text-black">
                     <span>{product.name} (x{product.inventory})</span>
                     <span>${product.price * product.inventory}</span>
                   </li>
@@ -148,7 +149,9 @@ const Menu = () => {
               </div>
               <div className="mt-6 flex justify-between">
                 <button onClick={() => setIsCheckout(false)} className="bg-slate-600 text-lg text-white py-2 px-6 rounded-lg hover:bg-green-600">Close</button>
-                <button onClick={() => alert("Order Confirmed! Will deliver to your doorstep.")} className="bg-slate-600 text-lg text-white py-2 px-6 rounded-lg hover:bg-green-600">Confirm Order</button>
+                <Link href="/checkout">
+                <button className="bg-slate-600 text-lg text-white py-2 px-6 rounded-lg hover:bg-green-600">Confirm Order</button>
+                </Link>
               </div>
             </div>
           </div>

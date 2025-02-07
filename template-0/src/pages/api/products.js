@@ -92,7 +92,7 @@ export default function handler(req, res) {
 
     {
       id: 9,
-      name: "Vitamin C Serum",
+      name: "Vitamin Serum",
       price: 400,
       description: "A skin brightening serum infused with Vitamin C for glowing skin.",
       image: "https://m.media-amazon.com/images/I/71uJKSEAiRL._SX425_.jpg",
@@ -202,7 +202,7 @@ export default function handler(req, res) {
 
     {
       id: 19,
-      name: "Mens Flip Flops",
+      name: "Mens Slipper",
       price: 1800,
       description: "Durable and stylish flip flops for men, ideal for casual wear.",
       image: "https://m.media-amazon.com/images/I/71fCQwiHVjL._AC_SX500_.jpg",
@@ -268,7 +268,7 @@ export default function handler(req, res) {
 
     {
       id: 25,
-      name: "Condenser Microphone",
+      name: "Condense Microphone",
       price: 5500,
       description: "A professional condenser microphone for high quality audio recording.",
       image: "https://m.media-amazon.com/images/I/61ms7tcyIlL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
@@ -279,7 +279,7 @@ export default function handler(req, res) {
 
     {
       id: 26,
-      name: "Stainless Steel Bottle",
+      name: "Steel Bottle",
       price: 3500,
       description: "An insulated stainless steel bottle that keeps drinks hot or cold for hours.",
       image: "https://m.media-amazon.com/images/I/61Qope4Mc6L._AC_SX522_.jpg",
@@ -290,7 +290,7 @@ export default function handler(req, res) {
 
     {
       id: 27,
-      name: "Plant Based Cream",
+      name: "Plant Cream",
       price: 1500,
       description: "A natural plant based cream that hydrates and nourishes the skin.",
       image: "https://m.media-amazon.com/images/I/41TYrmBFR1L._SX300_SY300_QL70_FMwebp_.jpg",
@@ -301,7 +301,7 @@ export default function handler(req, res) {
 
     {
       id: 28,
-      name: "Golf Shoes Men",
+      name: "Golf Shoes",
       price: 4000,
       description: "Durable and comfortable golf shoes designed for performance on the course.",
       image: "https://m.media-amazon.com/images/I/61eyLZlzaZL._AC_SY500_.jpg",
@@ -433,7 +433,7 @@ export default function handler(req, res) {
 
      {
       id: 40,
-      name: "Lipstick Capsule Set",
+      name: "Lipstick Set",
       price: 1600,
       description: "A set of vibrant and long lasting lipsticks for a bold look.",
       image: "https://m.media-amazon.com/images/I/61ru+G2pXAL._SX425_.jpg",
@@ -543,7 +543,7 @@ export default function handler(req, res) {
 
      {
       id: 50,
-      name: "Black Dinner Set",
+      name: "Dinner Set",
       price: 12000,
       description: "Elegant black dinnerware set for a stylish dining experience.",
       image: "https://m.media-amazon.com/images/I/71gNtDjQ5mL._AC_SX522_.jpg",
@@ -554,7 +554,7 @@ export default function handler(req, res) {
 
     {
       id: 51,
-      name: "White Ceramic Vase",
+      name: "Ceramic Vase",
       price: 1200,
       description: "A minimalistic white ceramic vase for home decor.",
       image: "https://m.media-amazon.com/images/I/61KVbKSnozL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
@@ -576,7 +576,7 @@ export default function handler(req, res) {
 
     {
       id: 53,
-      name: "Vanilla Scented Candle",
+      name: "Vanilla Candle",
       price: 1800,
       description: "A soothing vanilla scented candle for a relaxing ambiance.",
       image: "https://m.media-amazon.com/images/I/710sHkjYI1L._AC_SX569_PIbundle-2,TopRight,0,0_SH20_.jpg",
@@ -609,7 +609,7 @@ export default function handler(req, res) {
 
     {
       id: 56,
-      name: "Heating Pad for Neck",
+      name: "Neck Releave",
       price: 3800,
       description: "A soothing heating pad for neck pain relief and relaxation.",
       image: "https://m.media-amazon.com/images/I/71W6ku1ts9L._AC_SX522_.jpg",
@@ -620,7 +620,7 @@ export default function handler(req, res) {
 
     {
       id: 57,
-      name: "Modern Accent Chair",
+      name: "Modern Chair",
       price: 2600,
       description: "A stylish modern accent chair to elevate your home decor.",
       image: "https://m.media-amazon.com/images/I/61cTwIXKW7L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
